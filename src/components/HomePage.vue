@@ -61,7 +61,7 @@
             </div>
             <div class="flex justify-between">
               <div class="flex gap-5 items-center">
-                <img class="w-10 h-10" src="../assets/icons/NEO.png">
+                <img class="w-10 h-10" src="../assets/icons/neo.png">
                 <div class="flex flex-col">
                   <div class="font-semibold text-lg">NEO</div>
                   <div class="text-slate-400 text-sm">NEO</div>
