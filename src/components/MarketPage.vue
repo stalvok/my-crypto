@@ -11,17 +11,17 @@
           </div>
         </div> <!-- Market -->
         <div class="flex gap-4 mt-4 justify-between">
-            <div class="rounded-3xl bg-panelMarket gap-3 p-5 flex flex-col items-center justify-around">
+            <div class="rounded-3xl w-full bg-panelMarket gap-3 p-5 pt-7  flex flex-col items-center justify-around">
               <img class="w-8 h-8" src="../assets/icons/watchlists.png">
               <div class="font-semibold text-xs ">WatchList</div>
             </div>
-            <div class="rounded-3xl bg-panelMarket gap-3 p-5 flex flex-col items-center justify-around">
+            <div class="rounded-3xl w-full bg-panelMarket gap-3 p-5 pt-7 flex flex-col items-center justify-around">
               <img class="w-8 h-8" src="../assets/icons/trending.png">
               <div class="font-semibold text-xs">Trending</div>
             </div>
-            <div class="rounded-3xl bg-panelMarket gap-3 p-5 flex flex-col items-center justify-around">
+            <div class="rounded-3xl w-full bg-panelMarket gap-3 p-5 pt-7 flex flex-col items-center justify-around">
               <img class="w-8 h-8" src="../assets/icons/good-value.png">
-              <div class="font-semibold text-xs">Best value</div>
+              <div class="font-semibold whitespace-nowrap text-xs">Best value</div>
             </div>
           </div>
         <div class="flex flex-col gap-3 mt-7">

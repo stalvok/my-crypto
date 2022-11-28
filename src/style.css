@@ -25,3 +25,6 @@
     @apply p-6
   }
 }
+.router-link-active {
+  color:black ;
+}
