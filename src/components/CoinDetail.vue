@@ -1,13 +1,13 @@
 <template>
-  <div class="min-h-screen bg-base">
-    <div class="container mx-auto">
+  <div class="min-h-screen tablet:min-h-[812px] bg-base">
+    <div class="container relative mx-auto">
       <div class="row">
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-center z-10 relative">
           <div @click="$router.back()" class="p-3 cursor-pointer bg-white rounded-full"><AppIcon class="w-4 h-4 text-[#191C32]" name="vector"/></div>
           <div class="text-sm font-semibold">Etherium (ETH)</div>
           <div class="p-3 bg-white rounded-full"><AppIcon name="menu" class="w-4 h-4"/></div>
         </div><!--Etherium (ETH) -->
-        <div class="flex flex-col mt-5 items-center font-semibold">
+        <div class="flex flex-col mt-5 items-center font-semibold z-10 relative">
           <div class="text-3xl">32.128.80</div>
           <div class="flex items-center">
             <div class="relative transform rotate-180">
@@ -23,14 +23,14 @@
           <div class="py-3.5 px-5 active:bg-white active:text-black rounded-3xl text-panel">All</div>
           <div class="py-3.5 px-5 active:bg-white active:text-black rounded-3xl text-panel">Point</div>
         </div> <!-- WeekDays -->
-        <div class="mt-5">
+        <div class="mt-5 z-10 relative">
           <img class="w-[325px] h-[224px]" src="../assets/img/coin-chart.png">
         </div>
-        <div class="flex whitespace-nowrap text-center font-bold mt-5 gap-4">
+        <div class="flex whitespace-nowrap text-center font-bold mt-5 gap-4 z-10 relative">
           <div class="bg-white rounded-full py-4 shadow-button text-[#767DFF] px-10">Set Alert</div>
           <div class="bg-black rounded-full py-4 shadow-button text-white px-10">Buy Now</div>
         </div>
-        <div class="flex gap-4 flex-col p-6 bg-panel mt-6 rounded-[40px]">
+        <div class="flex gap-4 flex-col p-6 bg-panel mt-6 rounded-[40px] z-10 relative">
           <div class="font-semibold text-xl">Market Statistic</div>
           <div class="flex flex-col gap-4">
             <div class="flex justify-between text-sm">
@@ -43,10 +43,12 @@
             </div>
           </div>
         </div>
+        <img class="absolute bg-[#FFC2C6] blur-[92px] opacity-60 bottom-1/3 w-[190px] h-[190px]" src="../assets/img/blur-datails-coin.png">
+        <img class="absolute bg-[#FFE3C9] blur-[52px] opacity-60 right-0 -top-[60px] w-[200px] h-[200px]" src="../assets/img/blur-datails-coin2.png">
       </div>
+      <NavigationMenu class="sticky"/>
     </div>
   </div>
-  <NavigationMenu/>
 </template>
 
 <script>

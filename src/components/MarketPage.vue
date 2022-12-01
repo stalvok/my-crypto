@@ -1,8 +1,8 @@
 <template>
-  <div class="min-h-screen bg-base">
-    <div class="container mx-auto">
+  <div class="min-h-screen tablet:min-h-[812px] bg-base">
+    <div class="container relative mx-auto">
       <div class="row">
-        <div class="flex flex-col mt-2 gap-7">
+        <div class="flex flex-col mt-2 gap-7 relative z-10 ">
           <div class="text-3xl font-semibold">Market</div>
           <div class="flex items-center relative">
             <AppIcon class="w-6 h-6 absolute left-[16px]" name="search-icon"/>
@@ -10,7 +10,7 @@
             <AppIcon class="w-6 h-6 absolute right-[16px]" name="input-menu"/>
           </div>
         </div> <!-- Market -->
-        <div class="flex gap-4 mt-4 justify-between">
+        <div class="flex gap-4 mt-4 justify-between relative z-10">
             <div class="rounded-3xl w-full bg-panelMarket gap-3 p-5 pt-7  flex flex-col items-center justify-around">
               <img class="w-8 h-8" src="../assets/icons/watchlists.png">
               <div class="font-semibold text-xs ">WatchList</div>
@@ -24,7 +24,7 @@
               <div class="font-semibold whitespace-nowrap text-xs">Best value</div>
             </div>
           </div>
-        <div class="flex flex-col gap-3 mt-7">
+        <div class="flex flex-col gap-3 mt-7 ">
           <router-link to="/coin-detail"><div class="flex justify-between py-2.5">
             <img class="w-12 self-center h-12" src="../assets/icons/vechain.png">
             <div class="flex flex-col font-semibold">
@@ -101,6 +101,7 @@
             </div>
           </div>
         </div>
+        <img class="bg-[#E8D5FF] blur-[97px] w-[197px] h-[197px] top-0 absolute" src="../assets/img/blur-market.png">
       </div>
     </div>
   </div>

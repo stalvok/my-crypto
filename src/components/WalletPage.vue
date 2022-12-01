@@ -1,16 +1,16 @@
 <template>
-  <div class="min-h-screen bg-base">
+  <div class="min-h-screen tablet:min-h-[812px] bg-base">
     <div class="container mx-auto">
       <div class="row">
-        <div class="flex flex-col gap-3">
+        <div class="flex flex-col gap-3 relative z-10">
           <div class="font-semibold text-xl">Total Wallet page</div>
           <div class="font-bold text-3xl">$29,100.50</div>
         </div>
-        <div class="flex text-panel justify-between mt-6 bg-[#EBEFF1] text-sm font-semibold rounded-[32px]">
-          <div class="active:text-black duration-300 py-3 px-[48px] active:bg-white active:font-bold rounded-[32px]">Portfolio</div>
-          <div class="active:text-black duration-300 py-3 px-[48px] active:bg-white active:font-bold rounded-[32px]">History</div>
+        <div class="flex text-panel relative z-10 justify-between mt-6 bg-[#EBEFF1] text-sm font-semibold rounded-[32px]">
+          <div class="active:text-black cursor-pointer duration-300 py-3 px-[48px] active:bg-white active:font-bold rounded-[32px]">Portfolio</div>
+          <div class="active:text-black cursor-pointer duration-300 py-3 px-[48px] active:bg-white active:font-bold rounded-[32px]">History</div>
         </div>
-        <div class="flex flex-col gap-4 mt-6">
+        <div class="flex flex-col gap-4 mt-6 relative z-10">
           <div class="font-semibold text-panel text-lg">12 June 2021</div>
           <div class="flex flex-col gap-3">
             <div class="flex justify-between py-2">
@@ -122,6 +122,7 @@
             </div>
           </div>
         </div>
+        <img class="absolute blur-[97px] bg-[#F3E9FF] w-[200px] h-[200px]  right-0 top-0" src="../assets/img/blur-market.png">
       </div>
     </div>
   </div>

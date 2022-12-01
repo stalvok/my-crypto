@@ -4,6 +4,9 @@ module.exports = {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'tablet': '480px'
+    },
     extend: {
       boxShadow: {
         panel: '0px 20px 60px rgba(55, 62, 125, 0.05)',

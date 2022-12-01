@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen bg-base">
-    <div class="container mx-auto">
+  <div class="min-h-screen tablet:min-h-[812px] bg-base">
+    <div class="container relative mx-auto">
       <div class="row"> <!-- here -->
         <div class="flex flex-col gap-6">
           <div class="font-semibold text-3xl">Home</div>
@@ -13,10 +13,10 @@
               Try Now
             </div>
           </div>
-        </div>   <!-- home -->
+        </div> <!-- home -->
         <div class="flex flex-col gap-5">
           <div class="font-medium text-xl mt-10">Price Alerts</div>
-          <div class="bg-panel rounded-3xl p-4 gap-4 flex flex-col">
+          <div class="bg-panel rounded-3xl z-10 p-4 gap-4 flex flex-col">
             <div class="font-medium flex gap-3 items-center">
               <img class="w-10 h-10" src="../assets/icons/bitcoin.png">
               <div class="text-sm">BTCUSDT just went abode 30123.232</div>
@@ -37,10 +37,10 @@
               <div class="absolute bg-white -z-10  opacity-40 w-[70%] h-full rounded-3xl top-[40px] right-0 left-0 mx-auto"></div>
             </div>
           </div>
-        </div>   <!-- Price Alerts -->
-        <div class="p-6 bg-panel mt-20 rounded-3xl">
+        </div> <!-- Price Alerts -->
+        <div class="p-6 bg-panel mt-20 z-10 relative rounded-3xl">
           <div class="font-medium text-xl mb-5">Trending</div>
-          <div class="flex flex-col gap-4">
+          <div class="flex flex-col gap-4 ">
             <div class="flex justify-between">
               <div class="flex gap-5 items-center">
                 <img class="w-10 h-10" src="../assets/icons/bitcoin.png">
@@ -97,10 +97,11 @@
             </div>
           </div>
         </div> <!-- Trending -->
+        <img class="absolute right-0 bottom-1/3 w-[200px] bg-[#FFC2C6] blur-[82px] h-[200px] border border-red-400" src="../assets/img/blur-home.png">
       </div>
-      <NavigationMenu class="sticky"/>
     </div>
   </div>
+  <NavigationMenu class="sticky"/>
 </template>
 
 <script>
@@ -109,12 +110,10 @@ import AppIcon from "./AppIcon.vue";
 export default {
   name: "HomePage",
   components: {AppIcon,NavigationMenu}
-
 }
 </script>
 
 <style scoped>
  div {
-
  }
 </style>

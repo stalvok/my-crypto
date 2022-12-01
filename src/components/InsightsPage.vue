@@ -1,12 +1,12 @@
 <template>
-  <div class="min-h-screen bg-base">
-    <div class="container mx-auto">
+  <div class="min-h-screen tablet:min-h-[812px] bg-base">
+    <div class="container relative mx-auto">
       <div class="row">
-        <div class="flex justify-between items-center">
+        <div class="flex relative z-10 justify-between items-center">
           <div class="font-bold text-3xl">Insights</div>
           <div class="p-3 rounded-full bg-white"><AppIcon class="w-6 h-6 " name="menu"/></div>
         </div>
-        <div class="flex mt-7 gap-2 flex-col">
+        <div class="flex relative z-10 mt-7 gap-2 flex-col">
           <div class="flex justify-between font-medium text-sm">
             <div class="flex gap-2 items-center">
               <img class="h-10 w-10" src="../assets/icons/achain.png" >
@@ -24,7 +24,7 @@
             <img class="absolute top-0 ml-10" src="../assets/img/bitcoin.png">
           </div>
         </div>
-        <div class="flex flex-col mt-5 font-medium text-sm gap-2">
+        <div class="flex relative z-10 flex-col mt-5 font-medium text-sm gap-2">
           <div>Participate in the Corra Finance Airdrop on  CoinMarketCap</div>
           <div class="flex items-center gap-2 text-panel">
             <AppIcon name="clock" class="w-5 h-5"/>
@@ -72,10 +72,11 @@
             </div>
           </div>
         </div>
+        <img class="absolute top-0 right-0" src="../assets/img/blur-insights.png">
       </div>
     </div>
   </div>
-  <NavigationMenu/>
+  <NavigationMenu class="sticky"/>
 </template>
 
 <script>
