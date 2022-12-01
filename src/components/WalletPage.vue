@@ -6,7 +6,7 @@
           <div class="font-semibold text-xl">Total Wallet page</div>
           <div class="font-bold text-3xl">$29,100.50</div>
         </div>
-        <div class="flex text-panel relative z-10 justify-between mt-6 bg-[#EBEFF1] text-sm font-semibold rounded-[32px]">
+        <div class="flex mx-auto max-w-[320px] text-panel relative z-10 justify-between mt-6 bg-[#EBEFF1] text-sm font-semibold rounded-[32px]">
           <div class="active:text-black cursor-pointer duration-300 py-3 px-[48px] active:bg-white active:font-bold rounded-[32px]">Portfolio</div>
           <div class="active:text-black cursor-pointer duration-300 py-3 px-[48px] active:bg-white active:font-bold rounded-[32px]">History</div>
         </div>

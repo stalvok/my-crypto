@@ -16,17 +16,17 @@
             <div class="text-panel text-sm">2.5%</div>
           </div>
         </div> <!-- Price -->
-        <div class="flex text-sm mt-5 font-semibold bg-[#EBEFF1] rounded-full p-1">
+        <div class="flex text-sm mt-5 justify-center mx-auto font-semibold bg-[#EBEFF1] rounded-full p-1 max-w-[326px]">
           <div class="py-3.5 px-5 active:bg-white active:shadow-panel active:text-black rounded-3xl text-panel">24H</div>
           <div class="py-3.5 px-5 active:bg-white active:text-black rounded-3xl text-panel">1W</div>
           <div class="py-3.5 px-5 active:bg-white active:text-black rounded-3xl text-panel">1Y</div>
           <div class="py-3.5 px-5 active:bg-white active:text-black rounded-3xl text-panel">All</div>
           <div class="py-3.5 px-5 active:bg-white active:text-black rounded-3xl text-panel">Point</div>
         </div> <!-- WeekDays -->
-        <div class="mt-5 z-10 relative">
+        <div class="mt-5 z-10 relative mx-auto max-w-[326px]">
           <img class="w-[325px] h-[224px]" src="../assets/img/coin-chart.png">
         </div>
-        <div class="flex whitespace-nowrap text-center font-bold mt-5 gap-4 z-10 relative">
+        <div class="flex whitespace-nowrap text-center font-bold mt-5 gap-4 z-10 mx-auto max-w-[326px] relative">
           <div class="bg-white rounded-full py-4 shadow-button text-[#767DFF] px-10">Set Alert</div>
           <div class="bg-black rounded-full py-4 shadow-button text-white px-10">Buy Now</div>
         </div>
@@ -46,9 +46,9 @@
         <img class="absolute bg-[#FFC2C6] blur-[92px] opacity-60 bottom-1/3 w-[190px] h-[190px]" src="../assets/img/blur-datails-coin.png">
         <img class="absolute bg-[#FFE3C9] blur-[52px] opacity-60 right-0 -top-[60px] w-[200px] h-[200px]" src="../assets/img/blur-datails-coin2.png">
       </div>
-      <NavigationMenu class="sticky"/>
     </div>
   </div>
+  <NavigationMenu/>
 </template>
 
 <script>

@@ -49,16 +49,13 @@
       <path d="M8.50002 5.32317V9.00002H12.0447M15.4373 9.00002C15.4373 12.8314 12.3314 15.9373 8.50002 15.9373C4.66867 15.9373 1.56274 12.8314 1.56274 9.00002C1.56274 5.16867 4.66867 2.06274 8.50002 2.06274C12.3314 2.06274 15.4373 5.16867 15.4373 9.00002Z" stroke="#9395A4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <svg v-if="name === 'user'" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="16" cy="16" r="16" fill="#FFEBE4"/>
       <circle cx="15.9999" cy="13.4522" r="2.46586" stroke="#F7931A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M11.2191 21.1516V20.7491C11.2191 19.6446 12.1145 18.7491 13.2191 18.7491H18.781C19.8856 18.7491 20.781 19.6446 20.781 20.7491V21.1516" stroke="#F7931A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <svg v-if="name === 'mail'"  viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="16" cy="16" r="16" fill="#DEF5E9"/>
       <path d="M10 12H22V21H10V12ZM10 12L16 17L19 15" stroke="#5FC88F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
     </svg>
     <svg v-if="name === 'lock'" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="16" cy="16" r="16" fill="#EBECFF"/>
       <rect x="11.3179" y="15.0986" width="9.56336" height="6.58655" rx="1" stroke="#9F9DF3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M16.1477 17.8763V18.886" stroke="#9F9DF3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
       <path d="M13.7678 14.69V12.3149C13.7678 11.2103 14.6633 10.3149 15.7678 10.3149H17.2006C18.3051 10.3149 19.2006 11.2103 19.2006 12.3149V12.4303" stroke="#9F9DF3" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

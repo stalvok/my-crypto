@@ -11,16 +11,16 @@
           <div class="font-semibold self-center text-3xl">Register</div>
           <div class="flex flex-col gap-4 text-panel">
             <div class="relative bg-white p-3 rounded-3xl bg-panel">
-              <AppIcon name="user" class="absolute bottom-1.5 w-8 h-8"/>
-              <input class="ml-10" type="text">
+              <AppIcon name="user" class="absolute bg-[#FFEBE4] rounded-full bottom-1.5 w-8 h-8"/>
+              <input class="ml-10" placeholder="Username" type="text">
             </div>
             <div class="relative bg-white p-3 rounded-3xl bg-panel">
-              <AppIcon name="mail" class="absolute bottom-1.5 w-8 h-8"/>
-              <input class="ml-10" type="text">
+              <AppIcon name="mail" class="absolute bg-[#DEF5E9] rounded-full bottom-1.5 w-8 h-8"/>
+              <input class="ml-10" placeholder="Email" type="text">
             </div>
             <div class="relative bg-white p-3 rounded-3xl bg-panel">
-              <AppIcon name="lock" class="absolute bottom-1.5 w-8 h-8"/>
-              <input class="ml-10" type="text">
+              <AppIcon name="lock" class="absolute bg-[#EBECFF] rounded-full bottom-1.5 w-8 h-8"/>
+              <input class="ml-10" placeholder="Password" type="text">
             </div>
           </div>
         </div>
